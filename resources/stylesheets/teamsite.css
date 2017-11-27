@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    font-family: Open Sans;
+}
+
+html.fp-enabled body {
+    margin-top: 50px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url(../images/samuel-zeller-14251.jpg);
+    background-size: cover;
+    background-position: center;
+        
+    height: 100vh;
+    
+}
+
+nav.navbar {
+    margin-bottom: 0;
+    background-color: #2980b9;
+    border: none;
+
+}
+
+nav a {
+    color: #bddcf0 !important;
+    transition: color 0.5s;
+    padding-bottom: 5px !important;
+}
+
+nav a:hover:not(.navbar-brand) {
+    color: #fff !important;
+    border-bottom: 2px solid #fff;
+}
+
+.container-fluid {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.projects, .about {
+    height: 100vh;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
+hr {
+    border: 1px solid black;
+    width: 30%;
+    margin: 0 auto;
+}
+
+img.img-thumbnail {
+    height: 200px;
+    width: 200px;
+    padding: 0;
+    margin: 20px;
+}
+
+.images-about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.all-images-projects {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+
+}
+
+.images-projects {
+    width: 31%;
+    height: 250px;
+
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}

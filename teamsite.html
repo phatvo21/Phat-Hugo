@@ -4,11 +4,22 @@
 
 
     <head>
-        
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-        <link href="teamsite.css" rel="stylesheet">
+
+        <meta charset="utf-8">
+
+
         <title>Team Site</title>
-        
+
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <link type="text/css" href="resources/stylesheets/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" href="resources/stylesheets/jquery.fullPage.css" rel="stylesheet">
+        <link type="text/css" href="resources/stylesheets/teamsite.css" rel="stylesheet">
+
+        <script type="text/javascript" src="resources/scripts/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="resources/scripts/jquery.fullPage.js"></script>
+        <script type="text/javascript" src="resources/scripts/index.js"></script>
+
     </head>
     
     <body>
@@ -38,45 +49,63 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
-                
-        <section class="hero">
+
+    <div id="fullpage">
+
+
+    <section class="hero section">
             
             <h1>HEADER</h1>
                 
         </section>
 
-        <section class="about">
+        <section class="projects section">
+
+            <h1>Our Projects</h1>
+
+            <hr>
+
+            <div class="all-images-projects">
+
+            <div class="images-projects red">PROJECT 1</div>
+
+            <div class="images-projects blue">PROJECT 2</div>
+
+            <div class="images-projects green">PROJECT 3</div>
+
+            </div>
+
+        </section>
+
+        <section class="about section">
 
             <h1>About us</h1>
 
             <hr>
 
-            <div class="images-1">
+            <div class="images-about">
 
-                    <p>Hello my name is Phat and I'm from Vietnam</p>
+                <img src="resources/images/phat.jpg" alt="phat" class="img-thumbnail img-responsive">
 
-                    <img src="Assets/phat.jpg" alt="phat" class="img-thumbnail img-responsive">
-
-            </div>
-
-            <div class="images-2">
 
                 <p>Hello my name is Phat and I'm from Vietnam</p>
 
-                <img src="Assets/phat.jpg" alt="phat" class="img-thumbnail img-responsive">
             </div>
 
-            <div class="images-3">
+            <div class="images-about">
+
+                <img src="resources/images/phat.jpg" alt="phat" class="img-thumbnail img-responsive">
+
 
                 <p>Hello my name is Phat and I'm from Vietnam</p>
 
-                <img src="Assets/phat.jpg" alt="phat" class="img-thumbnail img-responsive">
             </div>
-
 
 
         </section>
-                    
+
+    </div>
+
     </body>
 
 </html>
